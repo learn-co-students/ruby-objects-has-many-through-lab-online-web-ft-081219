@@ -15,26 +15,15 @@ class Song
     @@all
   end 
   
-  def artist 
-    @artist 
-  end
-  
   def artist=(artist)
     @artist = artist 
     artist.songs << self
   end
   
-  def genre
-    @genre 
-  end 
-  
   def genre=(genre)
     @genre = genre 
     genre.songs << self
   end 
-  
-  
-  
 end 
 
 
